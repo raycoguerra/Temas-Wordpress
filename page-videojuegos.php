@@ -7,7 +7,7 @@
     <main>
         <h1>Plantilla todos los videojuegos</h1>
         <?php
-            get_template_part('template-parts/loop-generico');
+            get_template_part('template-parts/loop-videojuegos');
         ?>
     </main>
 </body>

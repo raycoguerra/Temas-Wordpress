@@ -7,5 +7,6 @@
             get_template_part('template-parts/loop-generico');
         ?>
     </main>
-</body>
-</html>
+<?php
+    get_footer();
+?>

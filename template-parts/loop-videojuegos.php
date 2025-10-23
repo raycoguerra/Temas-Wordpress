@@ -10,6 +10,7 @@
                 the_post_thumbnail('full', array('class' => 'img-fluid'));
             }
             the_content();
+            the_field('gameplay');
         }
         wp_reset_postdata();
     } else {

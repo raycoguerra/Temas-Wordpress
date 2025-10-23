@@ -2,11 +2,15 @@
     if (have_posts()) {
         while (have_posts()) {
             the_post();
-            the_title('<h2>', '</h2>');
-            if(has_post_thumbnail()){
-                the_post_thumbnail('full', array('class' => 'img-fluid'));
+            if (in_category('ejemplo')){
+                
+                the_title('<h2>', '</h2>');
+                if(has_post_thumbnail()){
+                    the_post_thumbnail('full', array('class' => 'img-fluid'));
+                }
+                the_content();
+             get_the_category( );
             }
-            the_content();
         }
     } else {
         echo '<p>No content found</p>';

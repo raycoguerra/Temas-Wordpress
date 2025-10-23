@@ -21,8 +21,9 @@ add_action('wp_enqueue_scripts', 'raycothemess_scripts_styles');
 function raycothemess_setup() {
     //imagen destacada
     add_theme_support('post-thumbnails');
-    /*
+    //títulos dinámicos
     add_theme_support('title-tag');
+    /*
     add_theme_support('html5', array('search-form'));
     */
 }
